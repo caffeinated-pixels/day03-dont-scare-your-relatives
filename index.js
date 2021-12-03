@@ -1,7 +1,12 @@
 const greeting = document.getElementById('greeting')
 const btn = document.getElementById('btn')
 
+btn.addEventListener('click', fix)
+
 function fix() {
+  greeting.style.fontFamily = 'Mountains of Christmas'
+  greeting.textContent = '🎅 Merry Christmas! 🎄'
+
   // Task:
   // - Write a function to fix the UI problems with this Christmas message (make it Christmassy!)
   // - Run the function when the Fix button is clicked.
